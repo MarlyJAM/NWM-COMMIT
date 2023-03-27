@@ -1,0 +1,176 @@
+*{
+
+margin:0;
+
+padding:0;
+
+}
+
+ 
+
+body, html{height:100%;}
+
+body{
+	background-color: #E87623;
+	background-image: url("screen/40ak4ku5u5p51.webp"),url("screen/Chibi-Anime-PNG-Background-Image.png");
+	background-position: top left,bottom right;
+	background-repeat: no-repeat;
+	background-size: 20%,20%;
+}
+
+.image{
+	 margin-left: 300px;
+	 width: 800px;
+	 height: 100px;
+	 margin-top: 100px;
+	
+} 
+.main{
+	margin-left: 180px;
+	border: solid darkred 5px;
+	border-radius: 90% 90% 90% 90%;
+	height: 1000px;
+	width: 1000px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	background: url("screen/83c38cd5f355229cffc78b0e3dcb01eb.gif"),url("screen/MealyWelcomeAustraliansilkyterrier-max-1mb.gif");
+	background-size: 100%,100%;
+	background-repeat: no-repeat;
+	background-position: top,bottom;
+}
+.inscription {
+	margin-top: 130px ;
+} 
+.personne{
+	margin: 10px 10px 10px 10px;
+	border:solid red 2px ;
+}
+.autre{
+	margin: 10px 10px 10px 10px;
+	height: 30px;
+	width: 170px;
+	border-radius: 30px;
+	border:solid red 2px ;
+}
+.autres{
+	margin-left: 45px;
+	border-radius: 10px;
+}
+.autress{
+	margin-left: 5px;
+	border-radius: 10px;
+}
+select{
+	margin: 10px 10px 10px 10px;
+	height: 30px;
+	width: 170px;
+	border-radius: 30px;
+}
+input{
+	color: blue;
+}
+
+.envoyer{
+	border-radius: 90% 90% 90% 90%;
+	height: 50px;
+	width: 50px;
+	border:solid red 2px ;
+} 
+.text{
+	cursor: pointer;
+	border: solid red 2px;
+	border-radius: 5px;
+	color: white;
+	font-family: luminari,sans-serif;
+	font-size: 20px;
+	background-image: url("screen/f4c48c6250c13ed46fa76c0c0b9ae335.png") ;
+	background-size: 100%;
+	background-color: dimgray;
+}
+nav.menu ul li.pouce a{
+  color:white;
+  background-color:transparent;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+nav.menu ul li.pouce:hover a{
+  color: black;
+  background-color:#42F7AA ;
+  transition: 0.3s;
+}
+
+nav.menu ul li.pouce{
+  display: inline-block;
+  list-style-type: none;
+}
+.menu{
+  margin-left: 900px;
+
+}
+.expos tr td {
+  border: solid 2px darkblue;
+  border-collapse: collapse;
+}
+table{
+  border-collapse: collapse;
+  background-color: #CD410C;
+}
+.tete{
+  height: auto;
+  color: orangered;
+  background-color: #1697C8;
+  B
+}
+tr td.tablette a{
+  color: bisque;
+  background-color:transparent;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.logo{
+	height: 150px;
+	width: 300px;
+	margin-bottom: 10px;
+} 
+footer div ul li{
+	list-style-type: none;
+}
+footer div ul li a{
+	text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: luminari;
+  padding-top: 5px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+footer div ul li a:hover{
+	background-color:red ;
+	color:black ;
+	transition: 0.3s;
+}
+footer div {
+	display: flex ;
+	justify-content: stretch;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 40px;
+}
+footer{
+
+background: url("screen/logos (3).png") no-repeat;
+background-size: 100%;
+
+position:relative;
+
+bottom:0;
+
+width:100%;
+
+height:300px;
+
+}

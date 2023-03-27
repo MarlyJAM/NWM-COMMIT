@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>concours-inscription</title>
+	<link rel="stylesheet" type="text/css" href="concours.css">
+</head>
+<body>
+	<table>
+		    <tr>
+				<td>
+					<table>
+				    	<tr class="table">
+				    		<td class="tablette">
+				    			<a href="contacts.html"> <img src="screen/148506941-conception-de-modèle-de-vecteur-plat-icône-enveloppe-à-la-mode.webp"  width="30" height="30" title="mail" alt="mail"></a>
+				    		</td >
+				    		<td class="tablette">
+				    			<a href="https://www.facebook.com/News-Moments-107963441863053/?ref=pages_you_manage"> <img src="screen/20673.png"  width="30" height="30" title="page" alt="facebook"></a>
+				    		</td>
+				    		<td class="tablette">
+				    			<a href="https://www.linkedin.com/in/marguerite-massinga-a62468228"> <img src="screen/61109.png"  width="25" height="25" title="linkedin" alt="linkedin"></a>
+				    		</td>
+				    	</tr>
+				    </table>
+			    </td>
+			    <td>
+				    <nav class="menu" >
+						<ul>
+							<li class="pouce">
+								<a href="index.html">Accueil </a>
+							</li>
+							<li class="pouce">
+								<a href="infossup.html">Sur Nous</a>
+							</li>
+							<li class="pouce">
+								<a href="index.php">Connexion</a>
+							</li>
+						</ul>
+
+			        </nav>
+			    </td>
+	        </tr>
+	    </table>
+
+
+<header>
+	<img src="screen/1c955467e60b6373c1e9a785b5ad2368.png" class="image">
+</header>
+<div align="center" class="main">
+	<form id="inscription" name="inscription" method="post" class="inscription">
+		<label for="Mademoiselle">Mademoiselle</label><input type="radio" name="personne" value="Mlle" class="personne">
+		<label for="Monsieur">Monsieur</label><input type="radio" name="personne" value="M" class="personne">
+		<label for="Madame">Madame</label><input type="radio" name="personne" value="Mme" class="personne" ><br>
+		<input type="text" placeholder="Pseudo" name="pseudo" class="autre"><br>
+		<input type="text" name="nom" placeholder="Nom complet" class="autre"><br>
+		<input type="email" placeholder="Email" name="email" class="autre"><br>
+		<input type="password" placeholder="Mot de passe" name="mdp" class="autre"><br>
+		<input type="password" placeholder="Confirmer_votre_mot_de_passe" name="mdp"class="autre"><br>
+		<input type="date" name="date" placeholder="date_de_naissance" class="autre"><br><br>
+		<label>Une photo de vous</label><input type="file" name="photo" id="photo" accept="image/png" required class="autres"><br><br>
+		<label>Une photo de votre travail</label><input type="file" name="photo" id="photo" accept="image/png" required class="autress"><br><br>
+		<legend>Expliquez nous votre travail</legend><br> <textarea name="msg" rows='10' cols="50" class="text"></textarea><br>
+
+		<select name="pays" id="pays" class="input">
+	                <optgroup label="Afrique">
+	                  <option> Afrique du Sud</option>
+	                  <option>Nigéria</option>
+	                  <option>Egypte</option>
+	                  <option>Algérie</option>
+	                  <option>Maroc</option>
+	                  <option>Angola</option>
+	                  <option>Gabon</option>
+	                  <option>Maroc</option>
+	                  <option>Angola</option>
+	                  <option>Kenya</option>
+	                  <option>Ethiopie</option>
+	                  <option>Tanzanie</option>
+	                  <option>Ghana</option>
+	                  <option> Libye</option>
+	                  <option>Côte d’Ivoire</option>
+	                  <option>République Démocratique du Congo </option>
+	                  <option> Tunisie</option>
+	                  <option>Cameroun</option>
+	                  <option>Ouganda </option>
+	                  <option>Zambie</option>
+	                  <option>Zimbabwe </option>
+	                  <option>Sénégal</option>
+	                  <option>Botswana</option>
+	                    
+	                  </optgroup>
+	                  <optgroup label="Amérique">
+	                    <option>Canada</option>
+	                    <option>Etats-Unis</option>
+	                    <option> Brésil </option>
+	                    <option>Argentine</option>  
+	                    <option>Venezuela</option>  
+	                    <option>Colombie</option> 
+	                    <option>Chili</option>  
+	                    <option>Pérou</option>  
+	                    <option>Équateur</option> 
+	                    <option>Uruguay </option>
+	                    <option>Paraguay</option> 
+	                    <option>Bolivie 
+	                    <option>Guyana</option> 
+	                    <option>Suriname</option> 
+	                  </optgroup>
+	                <optgroup label="Asie">
+	                  <option>la Chine</option> 
+	                  <option>Corée du Sud</option>
+	                  <option>Corée du Nord</option>
+	                  <option>Taïwan </option>
+	                  <option>Japon</option>
+	                  <option>la Mongolie</option>
+	                  <option>Indonésie</option>
+	                  <option>Philippines </option>
+	                  <option>la Birmanie </option>
+	                  <option>la Malaisie</option> 
+	                  <option>le Cambodge </option>
+	                  <option>le Laos </option>
+	                  <option>Singapour </option>
+	                  <option>le Timor </option>
+	                  <option>le Brunei </option>
+	                  <option>Turquie </option>
+	                  <option>Israël</option>
+	                  <option>Palestine </option>
+	                  <option>Syrie</option>
+	                  <option>Jordanie </option>
+	                  <option>Arabie Saoudite </option>
+	                  <option>Émirats arabes unis</option> 
+	                  <option>Koweït</option>
+	                  <option>Qatar </option>
+	                  <option>Inde</option>
+	                    
+	                </optgroup>
+	                <optgroup label="Europe">
+	                  <option>Albanie</option>
+	                  <option>Allemagne</option>
+	                  <option>Andorre</option>
+	                  <option>Autriche</option>
+	                  <option>Belgique</option>
+	                  <option>Biélorussie</option>
+	                  <option>Bosnie-Herzégovine</option>
+	                  <option>Bulgarie</option>
+	                  <option>Chypre</option>
+	                  <option>Croatie</option>
+	                  <option>Danemark</option>
+	                  <option>Espagne</option>
+	                  <option>Estonie</option>
+	                  <option>Finlande</option>
+	                  <option>France</option>
+	                  <option>Grèce</option>
+	                  <option>Hongrie</option>
+	                  <option>Irlande</option>
+	                  <option>Islande</option>
+	                  <option>Italie</option>
+	                  <option>Kosovo</option>
+	                  <option>Lettonie</option>
+	                  <option>Liechtenstein</option>
+	                  <option>Lituanie</option>
+	                  <option>Luxembourg</option>
+	                  <option>Macédoine</option>
+	                  <option>Malte</option>
+	                  <option>Moldavie</option>
+	                  <option>Monaco</option>
+	                  <option>Monténégro</option>
+	                  <option>Norvège</option>
+	                  <option>Pays-Bas</option>
+	                  <option>Pologne</option>
+	                  <option>République tchèque</option>
+	                  <option>Roumanie</option>
+	                  <option>Royaume-Un</option>
+	                  <option>Russie</option>
+	                  <option>Serbie</option>
+	                  <option>Saint-Marin</option>
+	                  <option>Serbie</option>
+	                  <option>Slovaquie</option>
+	                  <option>Slovénie</option>
+	                  <option>Suède</option>
+	                  <option>Suisse</option>
+	                  <option>Turquie</option>
+	                  <option>Ukraine</option>
+	                   
+	                </optgroup>
+	              </select><br>
+		<input type="image" src="screen/805-8057842_chibi-couple-otp-ocs-anime-couple-anime-chibi.png" class="envoyer" id="Image">
+		<span id="erreur" color="red"></span>
+	</form>
+</div>
+<footer>
+	<div>
+		<div>
+			<ul>
+				<li>
+					<a href="index.html">Accueil </a>
+				</li>
+				<li>
+					<a href="infossup.html">Sur Nous</a>
+				</li>
+				<li>
+					<a href="index.php">Connexion</a>
+				</li>
+				<li>
+					<a href="#">Concours</a>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<img src="screen/logo.png" class="logo">
+		</div>
+		<div>
+			<ul>
+				<li>
+					<a href="contacts.html"> <img src="screen/148506941-conception-de-modèle-de-vecteur-plat-icône-enveloppe-à-la-mode.webp"  width="30" height="30" title="mail" alt="mail"></a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/News-Moments-107963441863053/?ref=pages_you_manage"> <img src="screen/20673.png"  width="30" height="30" title="page" alt="facebook"></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/marguerite-massinga-a62468228"> <img src="screen/61109.png"  width="25" height="25" title="linkedin" alt="linkedin"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<script src="concours.js"></script>
+</body>
+</html>​

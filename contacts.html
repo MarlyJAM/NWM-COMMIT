@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="contacts.css">
+  <title>contactsnewsmoments</title>
+</head>
+<body>
+  <div class="contactez-nous">
+    <h1>Contactez-nous</h1>
+    <p>Un problème, une question, envie de nous envoyer un message? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+    <form action="/page-traitement-donnees" method="post">
+      <div>
+        <label for="nom">Votre nom</label>
+        <input type="text" id="nom" name="nom" placeholder="Martin" required>
+      </div>
+      <div>
+        <label for="email">Votre e-mail</label>
+        <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+      </div>
+      <div>
+        <label for="sujet">Quel est le sujet de votre message ?</label>
+        <select name="sujet" id="sujet" required>
+          <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+          <option value="probleme-compte">Problème avec mon compte</option>
+          <option value="question-produit">Question à propos d’un produit</option>
+          <option value="suivi-commande">Suivi de ma commande</option>
+          <option value="autre">Autre...</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+      </div>
+      <div>
+        <button type="submit">Envoyer mon message</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+  <div>
+    <div>
+      <ul>
+        <li>
+          <a href="index.html">Accueil </a>
+        </li>
+        <li>
+          <a href="infossup.html">Sur Nous</a>
+        </li>
+        <li>
+          <a href="index.php">Connexion</a>
+        </li>
+        <li>
+          <a href="#">Concours</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <img src="screen/logo.png" class="logo">
+    </div>
+    <div>
+      <ul>
+        <li>
+          <a href="contacts.html"> <img src="screen/148506941-conception-de-modèle-de-vecteur-plat-icône-enveloppe-à-la-mode.webp"  width="30" height="30" title="mail" alt="mail"></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/News-Moments-107963441863053/?ref=pages_you_manage"> <img src="screen/20673.png"  width="30" height="30" title="page" alt="facebook"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/marguerite-massinga-a62468228"> <img src="screen/61109.png"  width="25" height="25" title="linkedin" alt="linkedin"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <p class="p">
+      Copyright &copy;  newsmoments 2021-2022 - All rights reserved
+  </p>
+</footer>
+</body>
+</html>

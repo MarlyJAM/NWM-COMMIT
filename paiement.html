@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <link rel="stylesheet" type="text/css" href="paiement.css">
+</head>
+  
+<body>
+    <header>
+        <h1>DEVENIR PREMIUM</h1>
+    </header>
+    <center>
+        <div class="tabs">
+            <span data-tab-value="#tab_1">Carte de credit ou debit</span>
+            <span data-tab-value="#tab_2">Paypal</span>
+            <span data-tab-value="#tab_3">Paysafe</span>
+            <span data-tab-value="#tab_4">SEPA </span>
+
+        </div>
+      
+        <div class="tab-content">
+            <div class="tabs__tab active" id="tab_1" data-tab-info>
+                <p id="result"></p>
+                <form method="get" action="traitement.php">
+                    <input type="hidden" id="post_id" value="1" />
+                       <label>Monsieur</label>
+                        <input type="radio"  id="monsieur" name="genre" >
+
+                       <label>Madame</label>
+                        <input type="radio"  id="madame" name="genre"  >
+
+                        <label>Mademoiselle</label>
+                        <input type="radio" id="mademoiselle" name="genre" >
+                    <p>
+                        <label>Nom<label/>
+                        <input type="text" name="nom" id="nom" required>
+                    </p></br>
+
+                    <p>
+                        <label>Prenom</label>
+                        <input type="text" name="prenom" id="prenom" required>
+                    </p>
+                    <p>
+                        <label>Numero </label>
+                        <input type="number" class="num" id="num01" required>
+                        <input type="number" class="num" id="num02" required>
+                        <input type="number" class="num" id="num03" required>
+                        <input type="number" class="num" id="num04" required>
+                    </p>
+                    <p>
+                        <label>Date d'expiration </label>
+                        <input type="number" class="num1" id="num1" min="1" max=31 required>
+                        <input type="number" class="num1" min="2023" id="num2" required>
+                    </p>
+                    <p>
+                        <label>Numero de controle</label>
+                        <input type="number" class="num" id="num" required>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="check" id="check">
+                        <label>Enregistrer vos coordonnees bancaires pour simplifier vos prochains payements</label>
+                    </p>
+                    <input type="button" value="Valider" >
+                </form>
+                
+             
+            </div>
+            <div class="tabs__tab" id="tab_2" data-tab-info>
+                <p>Non disponible</p>
+      
+            </div>
+            <div class="tabs__tab" id="tab_3" data-tab-info>
+                <p>Non disponible</p>
+      
+            </div>
+            <div class="tabs__tab" id="tab_4" data-tab-info>
+                <p>Non disponible</p>
+      
+            </div>
+        </div>
+    </center>
+    <script type="text/javascript">
+        const tabs = document.querySelectorAll('[data-tab-value]')
+        const tabInfos = document.querySelectorAll('[data-tab-info]')
+  
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = document
+                    .querySelector(tab.dataset.tabValue);
+  
+                tabInfos.forEach(tabInfo => {
+                    tabInfo.classList.remove('active')
+                })
+                target.classList.add('active');
+            })
+        })
+    </script>
+    <script type="text/javascript" src="paiement.js"></script>
+</body>
+  
+</html>

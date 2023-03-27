@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contact</title>
+</head>
+<body>
+	<h1 align="center">CONTATCTS</h1>
+	<h4>
+	 <i> <font size="3" face="georgia" color="greenyellow"> Notre équipe</font> </i> 
+	</h4>
+    <nav>
+		<ul>
+			<li><a href="index.html">ACCUEIL</a></li>
+		    <li> <a href="presentation.html"> presentation</a> </li>
+			<li> <a href="realisation.html">realisations</a></li>
+		</ul>
+		    
+		
+	</nav>
+	<fieldset>
+		<label>Contactez-nous</label>
+			<form method="get" action="traitement.php">
+				<p>
+					<input type="radio" name="sexe" id="Mme"/>
+					<label for="madame">Madame</label>
+					<input type="radio" name="sexe" id="Mlle"/>
+					<label for="mademoselle">Mademoiselle</label>
+					<input type="radio" name="sexe" id="M"/>
+					<label for="monsieur">Monsieur</label>
+			    </p>
+				<p>
+					<label for="Nom">nom</label>
+					<input type="text" name="Nom" id="Nom" placeholder="Ex:litt" size="30" maxlength="10">
+				</p>
+
+				<p>
+					<label for="Prenom">prénom</label>
+					<input type="text" name="Prenom" id="prenom" placeholder="Ex:litt" size="30" maxlength="10">
+				</p>
+				<p>
+						<label for="motpass">password</label>:
+						<input type="password" name="motpass" id="motpass" placeholder="A&@ozcd" size="30" maxlength="10"/>
+				</p>
+				<p>
+						<label for="activité"> Vous etes</label>:
+						<select name="activité" id="activité">
+							<option value="professionnel">Professionnel</option>
+							<option value="étudiant">Etudiant</option>
+							<option value="autres">Autres</option>
+						</select>
+						
+				</p>
+				<p>
+						<legend>Que recherchez vous?</legend>
+						<input type="checkbox" name="option" id="option" />
+						<label for="option"> Offre à forfait</label>
+						<input type="checkbox" name="option" id="option" />
+						<label for="option"> Offre à facture</label>
+				</p>
+				<p>
+					<label for="message">Votre message?</label>
+					<textarea name="msg"></textarea>
+				</p>
+				<p>
+					<input type="submit" name="Envoyer"> <input type="reset" name="Annuler">
+				</p>
+
+		    </form>
+	</fieldset>
+	
+	<img src="photos/images.png" width="350" height="150">
+	<table border="1">
+	        <tr>
+	        	<td colspan="3">
+	        		Ce matin j'ai pas les mots c'est difficile Les réponses à tes questions je n'lai pas Moi aussi j'ai peur du temps ,du temps qui file
+	        	</td>
+	        	
+	        </tr>
+	        <tr>
+	        	<td rowspan="2">
+	        		<a href="index.html">ACCUEIL</a>
+	        	</td>
+	        	<td>
+	        		Tant de soir on se parle pas
+	        	</td>
+	        	<td>
+	        		On oublie tout on recommence là
+	        	</td>
+	        </tr>
+	        <tr>
+	        	<td>
+	        		Qu'on reve encore pas comme les grands
+	        	</td>
+	        	<td>
+	        		Si on pensait comme des enfants ,qu'on est plus fort
+	        	</td>
+	        </tr>
+	</table>
+
+
+</body>
+</html>

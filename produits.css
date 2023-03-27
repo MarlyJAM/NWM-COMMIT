@@ -1,0 +1,94 @@
+#mainproduct section{
+	display: flex ;
+	justify-content: stretch;
+	
+}
+#secondproduct{
+	display: flex;
+	justify-content: stretch;
+}
+header#main input.search nav.menu {
+
+   
+}
+header#main input.search{
+	margin-top: 10px;
+	margin-left: 650px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: solid 2px black;
+	height: 30px;
+}
+header{
+	background-color: #F69C06;
+	margin: 0px;
+}
+nav.menu ul li.pouce a{
+	color:black;
+	background-color:transparent;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0px;
+}
+nav.menu ul li.pouce:hover a{
+	color: white;
+	background-color: transparent;
+	transition: 0.3s;
+}
+nav.menu ul li.pouce{
+	display: inline-block;
+	list-style-type: none;
+}
+.img{
+	margin-left: 225px;
+	margin-top: 20px;
+}
+tr#table td.tablette{
+	padding: 0px;
+}
+.deconnex a{
+	text-decoration: none;
+}
+footer div ul li{
+	list-style-type: none;
+}
+footer div ul li a{
+	text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: luminari;
+  padding-top: 5px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+footer div ul li a:hover{
+	background-color:red ;
+	color:black ;
+	transition: 0.3s;
+}
+footer div {
+	display: flex ;
+	justify-content: stretch;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 40px;
+}
+footer{
+
+background: url("screen/logos (3).png") no-repeat;
+background-size: 100%;
+
+position:relative;
+
+bottom:0;
+
+width:100%;
+
+height:300px;
+
+}
+.logo{
+	height: 150px;
+	width: 300px;
+	margin-bottom: 10px;
+} 
